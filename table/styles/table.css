@@ -1,0 +1,12 @@
+/* Table  */
+
+.table {
+  direction: rtl;
+  @apply w-full border border-solid border-white/65 rounded-xl;
+}
+.thead {
+  @apply border-b border-solid border-white/65;
+}
+.th {
+  @apply text-title-small px-5 py-3 text-start;
+}
